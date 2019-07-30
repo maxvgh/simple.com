@@ -17,12 +17,21 @@ nav a {
 nav li{
     width: 100%;
     margin: 0 5px 0 5px;
+    text-align: center;
 }
 
 .title {
     background-color: #44d9ec;
+    text-align: center
 }
 
 .text-block {
     background-color: #fbff00;
+    padding: 10px 20px 10px 20px;
 }
+
+@media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
