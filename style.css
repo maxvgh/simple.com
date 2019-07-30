@@ -5,6 +5,7 @@
 
 nav {
     background-color: #0b6623;
+    list-style-type: none;
 }
 
 nav a {
@@ -18,6 +19,14 @@ nav li{
     width: 100%;
     margin: 0 5px 0 5px;
     text-align: center;
+}
+
+nav li:hover {
+    background-color: grey;
+}
+
+li a {
+    display: block;
 }
 
 .title {
